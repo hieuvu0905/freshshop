@@ -1,0 +1,16 @@
+#dtBasicExample button{
+  border: none;
+  background: none;
+}
+#them{
+  float: right;
+}
+input.form-control.input-sm {
+  margin-left: 15px;
+}
+div#bangdoanhthu {
+    padding: 120px 30px;
+}
+div#bangdoanhthu h1{
+	text-align: center;
+}

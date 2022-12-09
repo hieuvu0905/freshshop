@@ -1,0 +1,292 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+a.navbar-brand {
+    padding-bottom: 2.3125rem !important;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.navbar-default.bootsnav.on.no-full {
+    height: 70px !important;
+}
+button.navbar-toggler {
+    border: none;
+}
+p#taglineLOGO {
+    position: absolute;
+    top: 62px;
+    left: 72px;
+    font-size: 18px;
+    font-style: italic;
+}
+b#tenshop {
+    position: absolute;
+    left: 85px;
+    top: 36px;
+}
+a.navbar-brand {
+		    padding-bottom: 2.3125rem !important;
+		    padding-top: 1.8125rem;
+		}
+		nav.navbar.navbar-expand-lg.navbar-light.bg-light.navbar-default.bootsnav.on.no-full {
+		    height: 70px !important;
+            margin-top: -15px;
+		}
+		img.logo {
+		    height: 60px !important;
+		}
+
+        div#slides-shop {
+            height: 440.2px;
+        }
+        .categories-shop {
+            padding: 39px 0px;
+        }
+        .products-box {
+            padding: 25px 0px;
+        }
+        i.fab {
+            line-height: 2;
+        }
+        i.fa {
+            padding: 12px;
+        }
+        #back-to-top {
+            line-height: 20px;
+        }
+        .products-single .mask-icon {
+            transition: all 0.3s ease-out 0.01s;
+    
+        }
+            .products-single:hover .mask-icon{
+                animation: bounceY 0.7s linear;
+            }
+        .bgborder1{
+            border-bottom: 1px solid #dee2e6;
+        }   
+        .bgborder1:last-child{
+            border-bottom: none!important;
+            /*background-color: black;*/
+        }
+        #submit_thanhtoan:hover{
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+            position: relative;
+            background: #b0b435;
+            -webkit-transition-property: color;
+            transition-property: color;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            border-radius: 0;
+            box-shadow: none;
+        }
+        .main-header.fixed-menu {
+            top:15px;
+        }
+        
+        
+        @media (max-width: 992px){
+            ul.nav.navbar-nav.ml-auto {
+                background-color: papayawhip;
+            }
+
+            nav.navbar.bootsnav .navbar-brand {
+                display: inline-block;
+                float: none !important;
+                margin: 0 !important;
+                top: -30px;
+            }
+            nav.navbar .navbar-brand img.logo {
+                width: 90px;
+            }
+            img.logo {
+                height: 50px !important;
+            }
+            nav.navbar .navbar-brand {
+                margin-top: 0;
+                position: relative;
+                top: -40px;
+            }
+            @media (min-width: 768px) and (max-width: 991px){
+                .navbar-light .navbar-toggler {
+                    border-color: #b0b435;
+                    color: #010101;
+                    border-radius: 0px;
+                    margin-right: 7px;
+                    padding-top: 6px;
+                    padding-top: 6px;
+                    float: left;
+                    margin-top: -5px;
+                    padding-bottom: 6px;
+                }
+                nav.navbar.bootsnav .navbar-brand {
+                    display: inline-block;
+                    float: none !important;
+                    margin: 0 !important;
+                    top: -30px;
+                    left: -155px;
+                }
+                p#taglineLOGO {
+                    left: 80px;
+                    top: 60px;
+                }
+                b#tenshop {
+                    left: 95px;
+                    top: 30px;
+                }
+                .attr-nav {
+                    top: -10px;
+                }
+            }
+            @media (max-width: 767px){
+
+                p#taglineLOGO {
+                    display: none;
+                }
+                b#tenshop {
+                    display: none;
+                }
+                .attr-nav {
+                    top: -5px;
+                    right: 10px;
+                }
+                @media (min-width: 480px) and (max-width: 640px){
+                    .main-top {
+                        display: flex;
+                    }
+                }
+                @media only screen and (min-width: 280px) and (max-width: 599px){
+               .navbar-light .navbar-toggler {
+                    border-color: #b0b435;
+                    color: #010101;
+                    border-radius: 0px;
+                    margin-right: 7px;
+                    margin-top: -5px;
+                    padding-top: 6px;
+                    padding-bottom: 6px;
+                }
+                .slides-navigation a {
+                    height: 30px;
+                    width: 30px;
+                }
+                .slides-navigation a i {
+                    font-size: 30px;
+                }
+                .cover-slides p {
+                    font-size: 12px;
+                }
+                .title-all p {
+                    font-size: 12px;
+                }
+                .products-box {
+                    padding: 0;
+                }
+                @media only screen and (max-width: 280px){
+                    nav.navbar .navbar-brand img.logo {
+                        width: 80px;
+                    }
+                    img.logo {
+                        height: 47px !important;
+                    }
+                    .navbar-light .navbar-toggler {
+                        border-color: #b0b435;
+                        color: #010101;
+                        border-radius: 0px;
+                        margin-right: 7px;
+                        margin-top: 0px;
+                        padding: 0px;
+                    }
+                    .attr-nav {
+                        top: -10px;
+                        right: 6px;
+                    }
+                    nav.navbar.bootsnav .navbar-brand {
+                        display: inline-block;
+                        float: none !important;
+                        margin: 0 !important;
+                        top: -34px;
+                        left: -20px;
+                    }
+                }
+                
+            }
+            }
+            
+   
+            
+        }
+
+#selller-b.main-instagram.owl-carousel .owl-nav button.owl-prev{
+    background: none;
+     position: absolute;
+     z-index: 1;
+     display: block;
+     height: 100%;
+     width: 50px;
+     line-height: 0px;
+     font-size: 24px;
+     cursor: pointer;
+     color: #ffffff;
+     top: 0;
+     padding: 0;
+     margin-top: 0;
+     opacity: 1;
+     left: -55px;
+     -webkit-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+}
+ #selller-b.main-instagram.owl-carousel .owl-nav button.owl-next{
+    background: none;
+     position: absolute;
+     z-index: 1;
+     display: block;
+     height: 100%;
+     width: 50px;
+     line-height: 0px;
+     font-size: 24px;
+     cursor: pointer;
+     color: #ffffff;
+     top: 0;
+     padding: 0;
+     margin-top: 0;
+     opacity: 1;
+     right: -55px;
+     -webkit-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+}
+ .main-instagram.owl-carousel .owl-nav button.owl-next:hover, .main-instagram.owl-carousel .owl-nav button.owl-prev:hover{
+     background: #b0b435;
+}
+#selller-b.main-instagram.owl-carousel .owl-nav button.owl-prev i.fas.fa-arrow-left {
+    font-size: 35px;
+    color: #389f4a;
+}
+#selller-b.main-instagram.owl-carousel .owl-nav button.owl-next i.fas.fa-arrow-right {
+    font-size: 35px;
+    color: #389f4a;
+}
+div#sidebar {
+    font-size: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+#sidebar ul {margin: 0;padding: 0;}
+#sidebar ul li{padding-right: 30px;}
+#sidebar li:hover{
+    color: green;
+    cursor: pointer;
+}
+#sidebar .alert {padding: 8px;}
+#sidebar .nav a{color:#000}
+#sidebar .nav a:hover{color:#f89406}
+#sidebar .cart{border:1px solid #B94A48; }
+#sidebar h4{margin:0;  line-height:1.5em; padding:0 13px;  }
+#sidebar h2{font-size:21px; line-height:21px;}
+#sidebar a.defaultBtn:hover, .defaultBtn:hover{color:#fff; text-decoration:none; background:#333}
+#sidebar .nav a.zoomTool{color:#fff}
+
